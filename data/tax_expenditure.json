@@ -7,16 +7,16 @@
     "url": "https://www.jct.gov/getattachment/8c830c45-1680-4f7e-a649-2a0106f6b6e3/x-45-25.pdf",
     "five_year_total": 80.3,
     "years": [
-      {"fy": 2025, "individuals": 13.9, "corporations": 0.2, "combined": 14.1},
-      {"fy": 2026, "individuals": 14.8, "corporations": 0.2, "combined": 15.0},
-      {"fy": 2027, "individuals": 15.8, "corporations": 0.2, "combined": 16.0},
-      {"fy": 2028, "individuals": 16.9, "corporations": 0.2, "combined": 17.1},
-      {"fy": 2029, "individuals": 18.0, "corporations": 0.2, "combined": 18.2}
+      {"fy": 2025, "corporations": 13.9, "individuals": 0.2, "combined": 14.1},
+      {"fy": 2026, "corporations": 14.8, "individuals": 0.2, "combined": 15.0},
+      {"fy": 2027, "corporations": 15.8, "individuals": 0.2, "combined": 16.0},
+      {"fy": 2028, "corporations": 16.9, "individuals": 0.2, "combined": 17.1},
+      {"fy": 2029, "corporations": 18.0, "individuals": 0.2, "combined": 18.2}
     ],
     "climb_note": "The steep FY2025->2029 rise reflects the One Big Beautiful Bill Act's permanent 12% state-ceiling increase and lowered bond-financing threshold for buildings placed in service after Dec 31, 2025 (JCX-45-25 p.19). Not an organic trend."
   },
   "jct_history": [
-    {"pamphlet": "JCS-1-05", "published": "2005-01-12", "fy_covered": "2005-2029", "five_year_total": 25.2, "combined_first_year": 4.7, "note": "line item then read 'Tax credit for low-income housing'; corporations carried ~30%"},
+    {"pamphlet": "JCS-1-05", "published": "2005-01-12", "fy_covered": "2005-2009", "five_year_total": 25.2, "combined_first_year": 4.7, "note": "line item then read 'Tax credit for low-income housing'"},
     {"pamphlet": "JCX-81-18", "published": "2018-10-04", "fy_covered": "2018-2022", "five_year_total": 49.5, "combined_first_year": 9.0},
     {"pamphlet": "JCX-55-19", "published": "2019-12-18", "fy_covered": "2019-2023", "five_year_total": 49.0, "combined_first_year": 9.0},
     {"pamphlet": "JCX-23-20", "published": "2020-11-05", "fy_covered": "2020-2024", "five_year_total": 54.6, "combined_first_year": 10.3},
@@ -33,6 +33,6 @@
     "fy2025": 14.41,
     "fy2026": 15.17,
     "ten_year_total_2025_2034": 168.41,
-    "note": "Treasury attributes ~99% to corporations; JCT attributes ~99% to individuals. Totals agree closely (FY2026: JCT ~15.0 vs Treasury 15.17). Do not mix the two agencies' individual/corporate splits."
+    "note": "Both JCT and Treasury attribute nearly all of the credit to corporations (the banks and companies that buy the credits); the individual share is tiny. Totals agree closely (FY2026: JCT ~15.0 vs Treasury 15.17)."
   }
 }

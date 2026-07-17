@@ -68,7 +68,7 @@ function chartTaxExp(data) {
   rows.forEach((r, i) => {
     const h = m.t + ih - y(r.combined);
     const bar = el('rect', { class: 'bar', x: x(i) - bw / 2, y: y(r.combined), width: bw, height: h, fill: 'var(--red)' });
-    bar.appendChild(el('title', {}, `FY${r.fy}: $${r.combined}B estimated revenue forgone (individuals $${r.individuals}B + corporations $${r.corporations}B)`));
+    bar.appendChild(el('title', {}, `FY${r.fy}: $${r.combined}B estimated revenue forgone (corporations $${r.corporations}B + individuals $${r.individuals}B)`));
     svg.appendChild(bar);
     svg.appendChild(el('text', { class: 'val-lab', x: x(i), y: y(r.combined) - 7, 'text-anchor': 'middle' }, '$' + r.combined.toFixed(1)));
     svg.appendChild(el('text', { class: 'bar-lab', x: x(i), y: m.t + ih + 18, 'text-anchor': 'middle' }, 'FY' + r.fy));

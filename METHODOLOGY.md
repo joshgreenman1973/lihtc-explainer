@@ -39,4 +39,4 @@ Both are labeled "derived" on the page.
 
 ## Reproducing
 
-The derived JSON that drives the site lives in `public/data/`. The raw HUD download and the Python virtual environment are git-ignored; re-run the download from the HUD URL in the sources to regenerate. All primary-source URLs are listed in the site's "Sources & method" section.
+The derived JSON that drives the site lives in `data/`. The raw HUD download and the Python virtual environment are git-ignored; re-run the download from the HUD URL in the sources to regenerate. All primary-source URLs are listed in the site's "Sources & method" section.

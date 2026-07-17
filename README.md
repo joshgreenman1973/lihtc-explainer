@@ -2,12 +2,12 @@
 
 A carefully sourced, single-page explainer on the federal Low-Income Housing Tax Credit: its cost to the Treasury and the housing it produces. Every figure is drawn from a primary federal source (HUD, IRS, the Joint Committee on Taxation, GAO) and cross-checked.
 
-Static site — no build step. `public/` contains `index.html`, `style.css`, `app.js` and the derived data in `public/data/`. Charts are hand-rolled inline SVG (no external chart library).
+Static site — no build step. The repo root contains `index.html`, `style.css`, `app.js` and the derived data in `data/`. Charts are hand-rolled inline SVG (no external chart library). Served from the root for GitHub Pages.
 
 ## Run locally
 
 ```
-python3 -m http.server 5501 --directory public
+python3 -m http.server 5501 --directory .
 ```
 
 Then open http://localhost:5501.

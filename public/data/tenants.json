@@ -1,0 +1,24 @@
+{
+  "source": "HUD, LIHTC tenant tables as of December 31, 2023 (HERA-mandated reporting)",
+  "url": "https://www.huduser.gov/portal/datasets/lihtc/tenant.html",
+  "as_of": "2023-12-31",
+  "units_reported": 2338687,
+  "vacancy_rate": 5.19,
+  "median_household_income": 18600,
+  "income_reported_share": 80.9,
+  "rent_burden": [
+    {"band": "30% of income or less", "pct": 51.5},
+    {"band": "30.1 to 40%", "pct": 16.6},
+    {"band": "40.1 to 50%", "pct": 8.8},
+    {"band": "More than 50%", "pct": 15.2},
+    {"band": "Zero reported income", "pct": 2.6}
+  ],
+  "rental_assistance_share": 48.3,
+  "household": {
+    "with_member_under_18": 28.9,
+    "headed_by_62_plus": 36.7
+  },
+  "race_note": "For 39.7% of heads of household, race or ethnicity was not reported - the single largest category. Of those reported: Black 24.6%, White 21.6%, Hispanic (any race) 10.8%, Asian 1.0%.",
+  "big_caveat": "California - the largest LIHTC state - submitted no 2023 tenant data (it was migrating compliance systems), so every national tenant figure here excludes California. The U.S. Virgin Islands also did not report, and Mississippi reported only 67 units.",
+  "coverage_note": "Tenant data covers about 2.3 million units, fewer than the 3.9 million ever placed in service, because reporting is incomplete and because the property count is cumulative since 1987 while roughly a fifth of projects are no longer monitored."
+}

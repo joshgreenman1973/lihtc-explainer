@@ -1,0 +1,70 @@
+{
+  "source": {
+    "report": "GAO-18-637",
+    "title": "Low-Income Housing Tax Credit: Improved Data and Oversight Would Strengthen Cost Assessment and Fraud Risk Management",
+    "published": "2018-09",
+    "data_vintage": "Projects completed 2011-2015; dollars inflation-adjusted to 2015",
+    "url": "https://www.gao.gov/products/gao-18-637",
+    "sample": "1,849 nine-percent LIHTC projects from 12 allocating agencies (about half of 2015 credit authority)"
+  },
+  "median_per_unit_overall": 204000,
+  "median_new_construction": 218000,
+  "median_rehab": 169000,
+  "new_construction_by_agency": [
+    {"agency": "Texas", "median": 125866},
+    {"agency": "Georgia", "median": 139385},
+    {"agency": "Ohio", "median": 176917},
+    {"agency": "Arizona", "median": 197388},
+    {"agency": "Florida", "median": 201424},
+    {"agency": "Washington", "median": 210402},
+    {"agency": "Illinois", "median": 229715},
+    {"agency": "Pennsylvania", "median": 243415},
+    {"agency": "New York", "median": 263702},
+    {"agency": "New York City", "median": 281711},
+    {"agency": "Chicago", "median": 314615},
+    {"agency": "California", "median": 326020}
+  ],
+  "rehab_by_agency": [
+    {"agency": "Illinois", "median": 107353},
+    {"agency": "Texas", "median": 119367},
+    {"agency": "Ohio", "median": 129685},
+    {"agency": "Washington", "median": 131379},
+    {"agency": "Florida", "median": 132842},
+    {"agency": "Georgia", "median": 133959},
+    {"agency": "Arizona", "median": 168809},
+    {"agency": "California", "median": 184140},
+    {"agency": "Pennsylvania", "median": 224893},
+    {"agency": "New York City", "median": 248372},
+    {"agency": "New York", "median": 257698},
+    {"agency": "Chicago", "median": 258216}
+  ],
+  "cost_drivers": [
+    {"factor": "More than 100 units vs. fewer than 37", "effect": -85000, "note": "economies of scale"},
+    {"factor": "New construction vs. rehab", "effect": 39000, "note": "after controls; raw gap ~$50,000"},
+    {"factor": "51-100 units vs. fewer than 37", "effect": -56000, "note": ""},
+    {"factor": "37-50 units vs. fewer than 37", "effect": -31000, "note": ""},
+    {"factor": "Urban vs. nonurban", "effect": 13000, "note": ""},
+    {"factor": "Qualified census tract", "effect": 18000, "note": "model excluding poverty rates"},
+    {"factor": "Nonprofit set-aside", "effect": 15000, "note": ""},
+    {"factor": "Larger/taller buildings (60+ units)", "effect": 15000, "note": ""},
+    {"factor": "Senior tenants", "effect": -7000, "note": "roughly a third of projects; smaller units"},
+    {"factor": "USDA Rural Development loan/grant", "effect": -32000, "note": ""},
+    {"factor": "ARRA funding (TCAP or Section 1602)", "effect": -13000, "note": "not an efficiency verdict per GAO"}
+  ],
+  "within_agency_spread": {
+    "least": {"agency": "Georgia", "value": 104000},
+    "most": {"agency": "California", "value": 606000}
+  },
+  "equity_and_pricing": {
+    "median_equity_new_construction": 147000,
+    "equity_share_new_construction": 0.67,
+    "median_equity_rehab": 103000,
+    "equity_share_rehab": 0.61,
+    "credit_price_2011": 0.80,
+    "credit_price_2015": 0.93,
+    "credit_price_note": "cents of equity raised per dollar of credit"
+  },
+  "hard_soft_split": {"hard_cost_share": 0.70, "soft_cost_share": 0.30},
+  "recommendations_status": "All open as of the GAO product page; IRS disagreed with all three IRS recommendations; Congress has not designated an agency to collect cost data.",
+  "gao_caveat": "GAO declined to judge whether these costs are too high, stressing cost reasonableness must be considered within the context of local conditions. GAO published no LIHTC-vs-voucher cost comparison."
+}

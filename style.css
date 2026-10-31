@@ -196,6 +196,7 @@ cite{font-style:italic}
   padding:6px 13px;cursor:pointer;transition:all .15s;
 }
 .table-controls button.active,.table-controls button:hover{background:var(--ink);color:var(--paper)}
+#state-table{overflow-x:auto}
 .stbl{width:100%;border-collapse:collapse;font-size:14px}
 .stbl th{
   text-align:left;font-family:var(--mono);font-size:11px;letter-spacing:.06em;

@@ -1,6 +1,6 @@
 # Methodology — "The ledger"
 
-A plain account of where every number on the site comes from, how it was computed, and what it does and does not mean. Nothing on the site is modeled or estimated except the two items explicitly labeled "derived" below.
+Where every number on the site comes from, how it was computed and what it does and does not mean. Nothing on the site is modeled or estimated except the two items explicitly labeled "derived" below.
 
 ## Sources
 
@@ -28,9 +28,9 @@ The full national database (`lihtcpub.zip`, ~29 MB) was downloaded from HUD and 
 
 Both are labeled "derived" on the page.
 
-## Deliberate choices and caveats
+## Choices and caveats
 
-- **Tax-expenditure estimates are not spending.** They estimate revenue the Treasury forgoes, holding taxpayer behavior fixed, and are not the same as credits allocated or a repeal score. The site states this explicitly.
+- **Tax-expenditure estimates are not spending.** They estimate revenue the Treasury forgoes, holding taxpayer behavior fixed, and are not the same as credits allocated or a repeal score. The site says so.
 - **Per-unit cost comes from GAO's audited 2011–2015 sample, not from arithmetic on HUD's credit field.** HUD's `ALLOCAMT` field is populated for only ~64% of projects and contains clear errors (e.g. a single 8-unit project recorded with a $700 million annual credit). We therefore do not compute per-unit cost from it, and we flag the field wherever HUD credit data is discussed.
 - **The most recent two to three years of unit counts are undercounts** and are shown in a distinct color; HUD keeps adding projects as agencies report them.
 - **The database is a cumulative census of units placed in service since 1987, not the currently affordable stock.** Roughly a fifth of projects are flagged no longer monitored but remain in the file.
